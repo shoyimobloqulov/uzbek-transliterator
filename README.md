@@ -6,7 +6,7 @@ Kirill alifbosidagi oʻzbekcha matnni lotinchaga va aksincha transliteratsiya qi
 <code>composer require shoyim/uzbek-transliterate</code>
 
 ## Ishlatib ko'rish
-<pre>
+<code>
   <?php
     require_once 'src/global-var.php';
     require_once 'src/Transliterator.php';
@@ -14,4 +14,4 @@ Kirill alifbosidagi oʻzbekcha matnni lotinchaga va aksincha transliteratsiya qi
     $obj = new Transliteration\Transliterator();
 
     echo $obj->transliterate("Assalomu aleykum","kiril");
-</pre>
+</code>
