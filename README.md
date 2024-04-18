@@ -2,5 +2,16 @@
 
 Kirill alifbosidagi oʻzbekcha matnni lotinchaga va aksincha transliteratsiya qilish uchun. https://uz.wikipedia.org/wiki/Vikipediya:O%CA%BBzbek_lotin_alifbosi_qoidalari
 
-## Install
+## Yuklab olish
 <code>composer require shoyim/uzbek-transliterate</code>
+
+## Ishlatib ko'rish
+<pre>
+  <?php
+    require_once 'src/global-var.php';
+    require_once 'src/Transliterator.php';
+    // Test
+    $obj = new Transliteration\Transliterator();
+
+    echo $obj->transliterate("Assalomu aleykum","kiril");
+</pre>
