@@ -1,0 +1,8 @@
+{
+  "name": "shoyim/uzbek-transliterate",
+  "description": "Kirill alifbosidagi oʻzbekcha matnni lotinchaga va aksincha transliteratsiya qilish uchun.",
+  "require": {
+    "php": ">=8.1",
+    "ext-ctype": "*"
+  }
+}
