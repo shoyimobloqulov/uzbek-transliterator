@@ -1,9 +1,8 @@
 <?php
-    include_once 'sh-transliterate/functions.php';
-    include_once 'sh-transliterate/data-var.php';
-
+    require_once 'src/global-var.php';
+    require_once 'src/Transliterator.php';
     // Test
-    $obj = new TextTransliterate();
+    $obj = new Transliteration\Transliterator();
 
     echo $obj->transliterate("Assalomu aleykum","kiril");
 
